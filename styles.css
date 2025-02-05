@@ -1,0 +1,120 @@
+body{
+    font-family: sans-serif;
+    background: url(images/fondol.jpg);
+    background-size: cover;
+    
+}
+
+header{
+    display: flex;
+    justify-content: space-between;
+    height: 10px;
+    background-color: black;
+    align-items: center;
+    padding: 30px 20px;
+    text-decoration: none;
+    border-radius: 15px;
+}
+
+h2{
+    font-family: 'Poppins', sans-serif;
+    font-weight: 400;
+    font-size: medium;
+}
+
+a{
+    text-decoration: none;
+    color: white;
+    margin: 10px;
+}
+
+.logo{
+    display: flex;
+    align-items: center;
+    color: white;
+    padding: 20px;
+}
+
+.logo img{
+    height: 170px;
+    padding: 0px 20px 0px 20px;
+}
+
+.wsp{
+    background-color: #ffd700;
+    color: #000;
+    padding: 5px 15px;
+    text-decoration: none;
+    border-radius: 5px;
+    transition: transform 1s ease-in-out;
+}
+
+.wsp:hover{
+    display: block;
+}
+
+.tabla{
+    width: 80%;
+    margin: 50px auto;
+    border-collapse: collapse;
+    text-align: center;
+    border-radius: 10px;
+    overflow: hidden;
+    background: rgba(255, 255, 255, 0.6);
+    backdrop-filter: blur(10px); 
+}
+.tabla th {
+    background: black;
+    backdrop-filter: blur(10px); 
+    color: white;
+    padding: 15px;
+    font-size: 18px;
+}
+.tabla td {
+    padding: 15px;
+}
+.tabla img {
+    width: 100px;
+    height: auto;
+    transition: transform 1s ease-in-out;
+}
+
+.tabla img :hover{
+    display: block;
+}
+.producto {
+    text-align: center;
+    font-family: 'Poppins', sans-serif;
+    font-weight: 400;
+    font-size: medium;
+    color: black;
+}
+
+.redes{
+    align-items: center;
+    text-align: center;
+}
+
+.redes img{
+    width: 45px;
+    height: 45px;
+    transition: transform 1s ease-in-out;
+}
+
+
+footer{
+    font-family: 'Poppins', sans-serif;
+    text-align: center;
+    color: white;
+    font-size: smaller;
+    justify-content: center;
+
+}
+
+p{
+    text-align: center;
+}
+
+img :hover{
+    transition: transform 1s ease-in-out;
+}
